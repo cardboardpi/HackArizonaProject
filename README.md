@@ -1,2 +1,2 @@
-# HackArizonaProject
-The project made for Hack Arizona 2020
+# JeoparyProject
+Personal Project to develop a better understand in file reading.  More information will be provided upon completion.
