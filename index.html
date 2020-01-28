@@ -1,12 +1,74 @@
+
+<!--
+Author: Alberto Villarreal
+Summary: 
+	Insert summary here
+ -->
 <!DOCTYPE html>
 <html>
 	<head>
 		<link href="index.css" type="text/css" rel="stylesheet" />
 		<script src="index.js" type="text/javascript"></script>
+		<link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet"> 
 	</head>
 	
 	<body>
-		<h1> REMOVE ME!</h1>
+		<h1> JEOPARDY GENERATOR</h1>
+		
+		<div id="boardLocation">
+			 <div class="grid-container">
+			  <div class="category grid-item">Category 1</div>
+			  <div class="grid-item">$100</div>
+			  <div class="grid-item">$200</div>
+			  <div class="grid-item">$300</div>
+			  <div class="grid-item">$400</div>
+			  <div class="grid-item">$500</div>
+			  
+			  <div class="category grid-item">Category 2</div>
+			  <div class="grid-item">$100</div>
+			  <div class="grid-item">$200</div>
+			  <div class="grid-item">$300</div>
+			  <div class="grid-item">$400</div>
+			  <div class="grid-item">$500</div>
+			  
+			  <div class="category grid-item">Category 3</div>
+			  <div class="grid-item">$100</div>
+			  <div class="grid-item">$200</div>
+			  <div class="grid-item">$300</div>
+			  <div class="grid-item">$400</div>
+			  <div class="grid-item">$500</div>
+			  
+			  <div class="category grid-item">Category 4</div>
+			  <div class="grid-item">$100</div>
+			  <div class="grid-item">$200</div>
+			  <div class="grid-item">$300</div>
+			  <div class="grid-item">$400</div>
+			  <div class="grid-item">$500</div>
+			  
+			  <div class="category grid-item">Category 5</div>
+			  <div class="grid-item">$100</div>
+			  <div class="grid-item">$200</div>
+			  <div class="grid-item">$300</div>
+			  <div class="grid-item">$400</div>
+			  <div class="grid-item">$500</div>
+			  
+			  <div class="category grid-item">Category 6</div>
+			  <div class="grid-item">$100</div>
+			  <div class="grid-item">$200</div>
+			  <div class="grid-item">$300</div>
+			  <div class="grid-item">$400</div>
+			  <div class="grid-item">$500</div>
+			</div> 
+		</div>
+		
+		<div id="boardInput">
+			<h2> Want to make a new board? Just input a .txt file here with the appropriate information </br>(go here to create a file easily) and 
+			press generate.</h2>
+			<form action="/action_page.php">
+				Insert .txt file here: <input type="file" name="jeopardyTXT">
+				<input id="GenerateGame" type="submit" value="Generate">
+			</form>
+		</div>
 	</body>
 
 </html>
